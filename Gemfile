@@ -15,7 +15,7 @@ end
 gem 'bootstrap-sass'
 gem 'cells', '4.0.1'
 gem 'devise'
-gem 'elastic_searchable'
+#gem 'elastic_searchable'
 gem 'figaro', '>= 1.0.0.rc1'
 gem 'haml-rails'
 gem 'kaminari'
@@ -56,3 +56,4 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
 end
+gem 'TaskApi', path: 'vendor/TaskApi'
